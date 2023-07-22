@@ -4,9 +4,46 @@ namespace Discoteque.Business.Services;
 
 public class ArtistService : IArtistService
 {
-    public Task<IEnumerable<Artist>> GetArtistsAsync()
+    public async Task<IEnumerable<Artist>> GetArtistsAsync()
     {
-        throw new NotImplementedException();
+        var rand= new Random();
+        var artistList= new List<Artist>();
+
+        artistList.Add(new Artist(){
+        Id=rand.Next(101),
+        Name="Bad Bunny",
+        Label="Reaggaeton",
+        IsOnTour=false
+        });
+
+        artistList.Add(new Artist(){
+        Id=rand.Next(101),
+        Name="Ferxxo",
+        Label="Reaggaeton",
+        IsOnTour=false
+        });
+
+        artistList.Add(new Artist(){
+        Id=rand.Next(101),
+        Name="Daddy Yankee",
+        Label="Reaggaeton",
+        IsOnTour=false
+        });
+
+        artistList.Add(new Artist(){
+        Id=rand.Next(101),
+        Name="Lasso",
+        Label="Pop",
+        IsOnTour=true
+        });
+
+        artistList.Add(new Artist(){
+        Id=rand.Next(101),
+        Name="J Balvin",
+        Label="Reaggaeton",
+        IsOnTour=false
+        });
+        return artistList;
     }
     public Task<Artist> GetById(int id)
     {
