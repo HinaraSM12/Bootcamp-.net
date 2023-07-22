@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vcomU5oOPONOI4pbql/ZnADZ9f/VWcX9cwmPI/iBXAFHxz8gikSE2w1m20EIhZYhrVSJZFX0k8sxGhDi037BeA==",
+  "dgSpecHash": "bA4vAjzppJkQGkJcxpuejrch478MRLdReG6+UduwKYgi+j6nBmb01rN52DFqLVE4aaS8oJ8phy+L7fOi+mBZxg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Bootcamp-.net\\Discoteque\\Discoteque.API\\Discpteque.API.csproj",
+  "projectFilePath": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Bootcamp-.net\\Discoteque\\Discoteque.API\\Discoteque.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
